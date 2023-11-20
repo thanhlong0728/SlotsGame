@@ -38,20 +38,7 @@ const WebViewScreen = () => {
             .logEvent(eventType, map)
             .then(() => console.log('Sent event !!!!!'))
             .catch((err) => console.log(err))
-        // AppsFlyerLib.getInstance().logEvent(NioActivity, eventType, map)
     }
-
-    // useEffect(() => {
-    //     const a = {
-    //         af_currency: 'BRL',
-    //         af_revenue: 100,
-    //         uid: 12545
-    //     }
-    //     appsFlyer
-    //         .logEvent('af_purchase', a)
-    //         .then(() => console.log('af purchase completed'))
-    //         .catch((err) => console.log(err))
-    // }, [])
 
     useEffect(() => {
         database()

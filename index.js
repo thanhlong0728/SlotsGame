@@ -3,8 +3,33 @@
  */
 
 import { AppRegistry } from 'react-native'
-import App from './App'
 import { name as appName } from './app.json'
-import HomeScreen from './app/components/HomeScreen'
+import MainScreen from './app/components/MainScreen'
+import appsFlyer from 'react-native-appsflyer'
+import { receiveData, storeData } from './app/controllers/StorageManager'
 
-AppRegistry.registerComponent(appName, () => HomeScreen)
+appsFlyer.initSdk(
+    {
+        devKey: '', // ozBRTZ6ZLtaRb5UFwdymYA
+        isDebug: false,
+        // appId: '41*****44',
+        onInstallConversionDataListener: true, //Optional
+        onDeepLinkListener: true //Optional
+        // timeToWaitForATTUserAuthorization: 10 //for iOS 14.5
+    },
+    (result) => {
+        console.log(result)
+    },
+    (error) => {
+        console.error(error)
+    }
+)
+
+receiveData('isFirstOpen').then((data) => {
+    if (data == null || data == undefined || data == '' || data == false) {
+        storeData('isFirstOpen', true)
+        storeData('isFirstPurchase', true)
+    }
+})
+
+AppRegistry.registerComponent(appName, () => MainScreen)
