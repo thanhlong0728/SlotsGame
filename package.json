@@ -21,6 +21,7 @@
         "react-native-appsflyer": "^6.12.2",
         "react-native-device-country": "^1.0.4",
         "react-native-localize": "^3.0.3",
+        "react-native-modal": "^13.0.1",
         "react-native-orientation-locker": "^1.6.0",
         "react-native-webview": "^13.6.2"
     },

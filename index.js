@@ -7,6 +7,7 @@ import { name as appName } from './app.json'
 import MainScreen from './app/components/MainScreen'
 import appsFlyer from 'react-native-appsflyer'
 import { receiveData, storeData } from './app/controllers/StorageManager'
+import Orientation from 'react-native-orientation-locker'
 
 appsFlyer.initSdk(
     {
