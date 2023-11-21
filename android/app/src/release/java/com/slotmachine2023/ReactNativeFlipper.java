@@ -4,7 +4,7 @@
  * <p>This source code is licensed under the MIT license found in the LICENSE file in the root
  * directory of this source tree.
  */
-package com.slotmachine2023;
+package com.Jackpot.game777;
 
 import android.content.Context;
 import com.facebook.react.ReactInstanceManager;

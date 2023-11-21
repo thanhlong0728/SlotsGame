@@ -9,3 +9,7 @@ export default {
         main: 'gray'
     }
 }
+
+export const ratioH = (value) => {
+    return (value * Dimensions.get('screen').height) / Dimensions.get('screen').width
+}

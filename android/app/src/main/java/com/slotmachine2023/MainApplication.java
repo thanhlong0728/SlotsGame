@@ -1,4 +1,4 @@
-package com.slotmachine2023;
+package com.Jackpot.game777;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

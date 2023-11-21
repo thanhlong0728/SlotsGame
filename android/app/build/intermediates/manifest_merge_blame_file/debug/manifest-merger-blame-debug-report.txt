@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.slotmachine2023"
+3    package="com.Jackpot.game777"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -15,90 +15,244 @@
 12-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:3:5-67
 12-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:3:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.182.0] /Users/pipyl/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.182.0] /Users/pipyl/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:5:5-25:19
-16        android:name="com.slotmachine2023.MainApplication"
-16-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:6:7-38
-17        android:allowBackup="false"
-17-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:10:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.7.0] /Users/pipyl/.gradle/caches/transforms-3/75e4635b66fa4e4e84e71b52579837ce/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:8:7-41
-21        android:label="@string/app_name"
-21-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:7:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:9:7-52
-23        android:theme="@style/AppTheme"
-23-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:11:7-38
-24        android:usesCleartextTraffic="true" >
-24-->/Users/pipyl/SlotMachine2023/android/app/src/debug/AndroidManifest.xml:8:9-44
-25        <activity
-25-->/Users/pipyl/SlotMachine2023/android/app/src/debug/AndroidManifest.xml:11:9-111
-26            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-26-->/Users/pipyl/SlotMachine2023/android/app/src/debug/AndroidManifest.xml:11:19-83
-27            android:exported="false" />
-27-->/Users/pipyl/SlotMachine2023/android/app/src/debug/AndroidManifest.xml:11:84-108
-28        <activity
-28-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:12:7-24:18
-29            android:name="com.slotmachine2023.MainActivity"
-29-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:13:9-37
-30            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-30-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:15:9-118
-31            android:exported="true"
-31-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:18:9-32
-32            android:label="@string/app_name"
-32-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:14:9-41
-33            android:launchMode="singleTask"
-33-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:16:9-40
-34            android:screenOrientation="landscape"
-34-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:19:9-46
-35            android:windowSoftInputMode="adjustResize" >
-35-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:17:9-51
-36            <intent-filter>
-36-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:20:9-23:25
-37                <action android:name="android.intent.action.MAIN" />
-37-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:21:13-65
-37-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:21:21-62
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:22:13-73
-39-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:22:23-70
-40            </intent-filter>
-41        </activity>
-42
-43        <meta-data
-43-->[com.facebook.soloader:soloader:0.10.5] /Users/pipyl/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
-44            android:name="com.facebook.soloader.enabled"
-44-->[com.facebook.soloader:soloader:0.10.5] /Users/pipyl/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
-45            android:value="false" />
-45-->[com.facebook.soloader:soloader:0.10.5] /Users/pipyl/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
-46
-47        <provider
-47-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-48            android:name="androidx.startup.InitializationProvider"
-48-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-49            android:authorities="com.slotmachine2023.androidx-startup"
-49-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-50            android:exported="false" >
-50-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
-51            <meta-data
-51-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-52-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-53                android:value="androidx.startup" />
-53-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-54            <meta-data
-54-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/pipyl/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/pipyl/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-56                android:value="androidx.startup" />
-56-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/pipyl/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-57        </provider>
-58    </application>
+13-->[com.facebook.flipper:flipper:0.182.0] /Users/pipyl/.gradle/caches/transforms-3/426f122c987f1f036bd238635db2dd0e/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.182.0] /Users/pipyl/.gradle/caches/transforms-3/426f122c987f1f036bd238635db2dd0e/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_database] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+14-->[:react-native-firebase_database] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-firebase_database] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+15-->[:react-native-firebase_database] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[:react-native-appsflyer] /Users/pipyl/SlotMachine2023/node_modules/react-native-appsflyer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+16-->[:react-native-appsflyer] /Users/pipyl/SlotMachine2023/node_modules/react-native-appsflyer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+17
+18    <queries>
+18-->[com.appsflyer:af-android-sdk:6.12.2] /Users/pipyl/.gradle/caches/transforms-3/8316ceda0e85c4ed14013fd5fa0883bc/transformed/jetified-af-android-sdk-6.12.2/AndroidManifest.xml:11:5-15:15
+19        <intent>
+19-->[com.appsflyer:af-android-sdk:6.12.2] /Users/pipyl/.gradle/caches/transforms-3/8316ceda0e85c4ed14013fd5fa0883bc/transformed/jetified-af-android-sdk-6.12.2/AndroidManifest.xml:12:9-14:18
+20            <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER" />
+20-->[com.appsflyer:af-android-sdk:6.12.2] /Users/pipyl/.gradle/caches/transforms-3/8316ceda0e85c4ed14013fd5fa0883bc/transformed/jetified-af-android-sdk-6.12.2/AndroidManifest.xml:13:13-78
+20-->[com.appsflyer:af-android-sdk:6.12.2] /Users/pipyl/.gradle/caches/transforms-3/8316ceda0e85c4ed14013fd5fa0883bc/transformed/jetified-af-android-sdk-6.12.2/AndroidManifest.xml:13:21-75
+21        </intent>
+22    </queries>
+23
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+24-->[com.android.installreferrer:installreferrer:2.1] /Users/pipyl/.gradle/caches/transforms-3/0eed6f62edfe9db21734dc7253c5da21/transformed/jetified-installreferrer-2.1/AndroidManifest.xml:9:5-110
+24-->[com.android.installreferrer:installreferrer:2.1] /Users/pipyl/.gradle/caches/transforms-3/0eed6f62edfe9db21734dc7253c5da21/transformed/jetified-installreferrer-2.1/AndroidManifest.xml:9:22-107
+25
+26    <application
+26-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:5:5-25:19
+27        android:name="com.Jackpot.game777.MainApplication"
+27-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:6:7-38
+28        android:allowBackup="false"
+28-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:10:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.7.0] /Users/pipyl/.gradle/caches/transforms-3/ba61eebf3adbfc840ed74cdb00cf1b91/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:fullBackupContent="@xml/appsflyer_backup_rules"
+31-->[com.appsflyer:af-android-sdk:6.12.2] /Users/pipyl/.gradle/caches/transforms-3/8316ceda0e85c4ed14013fd5fa0883bc/transformed/jetified-af-android-sdk-6.12.2/AndroidManifest.xml:21:18-73
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:8:7-41
+33        android:label="@string/app_name"
+33-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:7:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:9:7-52
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme"
+36-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:11:7-38
+37        android:usesCleartextTraffic="true" >
+37-->/Users/pipyl/SlotMachine2023/android/app/src/debug/AndroidManifest.xml:8:9-44
+38        <activity
+38-->/Users/pipyl/SlotMachine2023/android/app/src/debug/AndroidManifest.xml:11:9-111
+39            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+39-->/Users/pipyl/SlotMachine2023/android/app/src/debug/AndroidManifest.xml:11:19-83
+40            android:exported="false" />
+40-->/Users/pipyl/SlotMachine2023/android/app/src/debug/AndroidManifest.xml:11:84-108
+41        <activity
+41-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:12:7-24:18
+42            android:name="com.Jackpot.game777.MainActivity"
+42-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:13:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+43-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:15:9-118
+44            android:exported="true"
+44-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:18:9-32
+45            android:label="@string/app_name"
+45-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:14:9-41
+46            android:launchMode="singleTask"
+46-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:16:9-40
+47            android:screenOrientation="landscape"
+47-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:19:9-46
+48            android:windowSoftInputMode="adjustResize" >
+48-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:17:9-51
+49            <intent-filter>
+49-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:20:9-23:25
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:21:13-65
+50-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:21:21-62
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:22:13-73
+52-->/Users/pipyl/SlotMachine2023/android/app/src/main/AndroidManifest.xml:22:23-70
+53            </intent-filter>
+54        </activity>
+55
+56        <meta-data
+56-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
+57            android:name="app_data_collection_default_enabled"
+57-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
+58            android:value="true" />
+58-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
 59
-60</manifest>
+60        <service
+60-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
+62            android:directBootAware="true"
+62-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
+63            android:exported="false" >
+63-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+64            <meta-data
+64-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
+65                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+65-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-database:20.3.0] /Users/pipyl/.gradle/caches/transforms-3/8f98981f6acdcc902098d7f6e7eff4e3/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:29:13-31:85
+68                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+68-->[com.google.firebase:firebase-database:20.3.0] /Users/pipyl/.gradle/caches/transforms-3/8f98981f6acdcc902098d7f6e7eff4e3/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:30:17-120
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-database:20.3.0] /Users/pipyl/.gradle/caches/transforms-3/8f98981f6acdcc902098d7f6e7eff4e3/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:31:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-database:20.3.0] /Users/pipyl/.gradle/caches/transforms-3/8f98981f6acdcc902098d7f6e7eff4e3/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:32:13-34:85
+71                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+71-->[com.google.firebase:firebase-database:20.3.0] /Users/pipyl/.gradle/caches/transforms-3/8f98981f6acdcc902098d7f6e7eff4e3/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:33:17-109
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-database:20.3.0] /Users/pipyl/.gradle/caches/transforms-3/8f98981f6acdcc902098d7f6e7eff4e3/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:34:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/pipyl/.gradle/caches/transforms-3/75674215fde5ca8f919c2418ed88ca0a/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+74                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+74-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/pipyl/.gradle/caches/transforms-3/75674215fde5ca8f919c2418ed88ca0a/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/pipyl/.gradle/caches/transforms-3/75674215fde5ca8f919c2418ed88ca0a/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-common:20.4.2] /Users/pipyl/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+77                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+77-->[com.google.firebase:firebase-common:20.4.2] /Users/pipyl/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-common:20.4.2] /Users/pipyl/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+79        </service>
+80
+81        <provider
+81-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
+82            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+82-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
+83            android:authorities="com.Jackpot.game777.reactnativefirebaseappinitprovider"
+83-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
+84            android:exported="false"
+84-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
+85            android:initOrder="99" />
+85-->[:react-native-firebase_app] /Users/pipyl/SlotMachine2023/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+86        <provider
+86-->[:react-native-webview] /Users/pipyl/SlotMachine2023/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+87            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+87-->[:react-native-webview] /Users/pipyl/SlotMachine2023/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-83
+88            android:authorities="com.Jackpot.game777.fileprovider"
+88-->[:react-native-webview] /Users/pipyl/SlotMachine2023/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
+89            android:exported="false"
+89-->[:react-native-webview] /Users/pipyl/SlotMachine2023/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+90            android:grantUriPermissions="true" >
+90-->[:react-native-webview] /Users/pipyl/SlotMachine2023/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+91            <meta-data
+91-->[:react-native-webview] /Users/pipyl/SlotMachine2023/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:63
+92                android:name="android.support.FILE_PROVIDER_PATHS"
+92-->[:react-native-webview] /Users/pipyl/SlotMachine2023/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+93                android:resource="@xml/file_provider_paths" />
+93-->[:react-native-webview] /Users/pipyl/SlotMachine2023/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-60
+94        </provider>
+95        <provider
+95-->[com.google.firebase:firebase-common:20.4.2] /Users/pipyl/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+96            android:name="com.google.firebase.provider.FirebaseInitProvider"
+96-->[com.google.firebase:firebase-common:20.4.2] /Users/pipyl/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+97            android:authorities="com.Jackpot.game777.firebaseinitprovider"
+97-->[com.google.firebase:firebase-common:20.4.2] /Users/pipyl/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+98            android:directBootAware="true"
+98-->[com.google.firebase:firebase-common:20.4.2] /Users/pipyl/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+99            android:exported="false"
+99-->[com.google.firebase:firebase-common:20.4.2] /Users/pipyl/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+100            android:initOrder="100" />
+100-->[com.google.firebase:firebase-common:20.4.2] /Users/pipyl/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+101
+102        <activity
+102-->[com.google.android.gms:play-services-auth:20.7.0] /Users/pipyl/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+103            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+103-->[com.google.android.gms:play-services-auth:20.7.0] /Users/pipyl/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+104            android:excludeFromRecents="true"
+104-->[com.google.android.gms:play-services-auth:20.7.0] /Users/pipyl/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-auth:20.7.0] /Users/pipyl/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-auth:20.7.0] /Users/pipyl/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+107        <!--
+108            Service handling Google Sign-In user revocation. For apps that do not integrate with
+109            Google Sign-In, this service will never be started.
+110        -->
+111        <service
+111-->[com.google.android.gms:play-services-auth:20.7.0] /Users/pipyl/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+112            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+112-->[com.google.android.gms:play-services-auth:20.7.0] /Users/pipyl/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+113            android:exported="true"
+113-->[com.google.android.gms:play-services-auth:20.7.0] /Users/pipyl/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+114            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+114-->[com.google.android.gms:play-services-auth:20.7.0] /Users/pipyl/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+115            android:visibleToInstantApps="true" />
+115-->[com.google.android.gms:play-services-auth:20.7.0] /Users/pipyl/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+116
+117        <activity
+117-->[com.google.android.gms:play-services-base:18.1.0] /Users/pipyl/.gradle/caches/transforms-3/12164d3622d4ef4e46a4be48a1fd6501/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+118            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+118-->[com.google.android.gms:play-services-base:18.1.0] /Users/pipyl/.gradle/caches/transforms-3/12164d3622d4ef4e46a4be48a1fd6501/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+119            android:exported="false"
+119-->[com.google.android.gms:play-services-base:18.1.0] /Users/pipyl/.gradle/caches/transforms-3/12164d3622d4ef4e46a4be48a1fd6501/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+120            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+120-->[com.google.android.gms:play-services-base:18.1.0] /Users/pipyl/.gradle/caches/transforms-3/12164d3622d4ef4e46a4be48a1fd6501/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+121
+122        <meta-data
+122-->[com.google.android.gms:play-services-basement:18.2.0] /Users/pipyl/.gradle/caches/transforms-3/6ea5954c9161efc9a3dde92daf120e53/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+123            android:name="com.google.android.gms.version"
+123-->[com.google.android.gms:play-services-basement:18.2.0] /Users/pipyl/.gradle/caches/transforms-3/6ea5954c9161efc9a3dde92daf120e53/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+124            android:value="@integer/google_play_services_version" />
+124-->[com.google.android.gms:play-services-basement:18.2.0] /Users/pipyl/.gradle/caches/transforms-3/6ea5954c9161efc9a3dde92daf120e53/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+125
+126        <provider
+126-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+127            android:name="androidx.startup.InitializationProvider"
+127-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+128            android:authorities="com.Jackpot.game777.androidx-startup"
+128-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+129            android:exported="false" >
+129-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+130            <meta-data
+130-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+131                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+131-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+132                android:value="androidx.startup" />
+132-->[androidx.emoji2:emoji2:1.0.0] /Users/pipyl/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+133            <meta-data
+133-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/pipyl/.gradle/caches/transforms-3/741ed8285e530c428432a9e6620a329e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+134                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+134-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/pipyl/.gradle/caches/transforms-3/741ed8285e530c428432a9e6620a329e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+135                android:value="androidx.startup" />
+135-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/pipyl/.gradle/caches/transforms-3/741ed8285e530c428432a9e6620a329e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+136        </provider>
+137
+138        <meta-data
+138-->[com.facebook.soloader:soloader:0.10.5] /Users/pipyl/.gradle/caches/transforms-3/2add1735ebfa5047b843e99834f8ccf7/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+139            android:name="com.facebook.soloader.enabled"
+139-->[com.facebook.soloader:soloader:0.10.5] /Users/pipyl/.gradle/caches/transforms-3/2add1735ebfa5047b843e99834f8ccf7/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+140            android:value="false" />
+140-->[com.facebook.soloader:soloader:0.10.5] /Users/pipyl/.gradle/caches/transforms-3/2add1735ebfa5047b843e99834f8ccf7/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+141    </application>
+142
+143</manifest>

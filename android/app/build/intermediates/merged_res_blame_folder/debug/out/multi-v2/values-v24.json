@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.slotmachine2023.app-mergeDebugResources-22:/values-v24/values-v24.xml",
+            "outputFile": "com.Jackpot.game777.app-mergeDebugResources-28:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/pipyl/.gradle/caches/transforms-3/b14585e0ae3314e7a64bac79062dab1c/transformed/appcompat-1.4.1/res/values-v24/values-v24.xml",
+                    "source": "/Users/pipyl/.gradle/caches/transforms-3/470310c0cbc907667f18abe42ad14645/transformed/appcompat-1.4.1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

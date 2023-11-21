@@ -74,9 +74,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.slotmachine2023"
+    namespace "com.Jackpot.game777"
     defaultConfig {
-        applicationId "com.slotmachine2023"
+        applicationId "com.Jackpot.game777"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
