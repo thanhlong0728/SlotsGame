@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { WebView } from 'react-native-webview'
 import appsFlyer from 'react-native-appsflyer'
 import database from '@react-native-firebase/database'
+import Orientation from 'react-native-orientation-locker'
 
 const WebViewScreen = () => {
     const [currentUrl, setCurrentUrl] = useState('')
@@ -53,6 +54,10 @@ const WebViewScreen = () => {
                     console.log(err)
                 }
             )
+    }, [])
+
+    useEffect(() => {
+        Orientation.unlockAllOrientations()
     }, [])
 
     return (

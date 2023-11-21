@@ -2,9 +2,14 @@ import { Image, Modal, StatusBar, StyleSheet, Text, TouchableOpacity, View } fro
 import React, { useEffect, useState } from 'react'
 import Utils, { ratioH } from '../controllers/Utils'
 import GameScreen from './GameScreen'
+import Orientation from 'react-native-orientation-locker'
 
 const HomeScreen = () => {
     const [isShow, setIsShow] = useState(false)
+
+    useEffect(() => {
+        Orientation.lockToLandscape()
+    }, [])
 
     return (
         <View
@@ -17,7 +22,6 @@ const HomeScreen = () => {
             }}
         >
             <StatusBar hidden={true} />
-            {/* <View style={{ flex: 1, justifyContent: 'center', alignItems: 'flex-end' }}> */}
             <Text
                 style={{
                     fontSize: 35,
@@ -26,18 +30,15 @@ const HomeScreen = () => {
             >
                 Welcome to PIPYL
             </Text>
-            {/* </View> */}
-            {/* <View style={{ width: 50 }} /> */}
             <View
                 style={{
                     justifyContent: 'center',
-                    alignItems: 'flex-start'
-                    // flex: 1
+                    alignItems: 'center'
                 }}
             >
                 <Image
                     style={{
-                        height: Utils.screenSize.height * 0.2,
+                        height: Utils.screenSize.height * 0.4,
                         aspectRatio: 1,
                         backgroundColor: Utils.colors.main,
                         marginTop: 16,
