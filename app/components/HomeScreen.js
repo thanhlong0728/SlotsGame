@@ -18,9 +18,9 @@ const HomeScreen = () => {
 
     const getHeight = () => {
         if (Utils.screenSize.height < Utils.screenSize.width) {
-            return Utils.screenSize.height * 0.4
+            return Utils.screenSize.height * 0.5
         }
-        return Utils.screenSize.width * 0.4
+        return Utils.screenSize.width * 0.5
     }
 
     useEffect(() => {
@@ -39,16 +39,17 @@ const HomeScreen = () => {
         >
             <StatusBar hidden={true} />
             {isShow ? (
-                <GameScreen />
+                <GameScreen onClose={() => setIsShow(false)} />
             ) : (
                 <View>
                     <Text
                         style={{
-                            fontSize: 35,
-                            marginRight: 30
+                            fontSize: 32,
+                            marginRight: 30,
+                            color: Utils.colors.main
                         }}
                     >
-                        Welcome to PIPYL
+                        Welcome to <Text style={{ fontWeight: 'bold' }}>FRUIT SLOTS</Text>
                     </Text>
                     <View
                         style={{
@@ -57,12 +58,13 @@ const HomeScreen = () => {
                         }}
                     >
                         <Image
+                            source={require('../assets/images/logo.jpg')}
                             style={{
                                 height: getHeight(),
                                 aspectRatio: 1,
                                 backgroundColor: Utils.colors.main,
-                                marginTop: 16,
-                                marginBottom: 16
+                                marginTop: 0,
+                                marginBottom: 0
                             }}
                         />
                         <TouchableOpacity
@@ -83,7 +85,7 @@ const HomeScreen = () => {
                                     color: Utils.colors.main
                                 }}
                             >
-                                Go home
+                                PLAY NOW
                             </Text>
                         </TouchableOpacity>
                     </View>

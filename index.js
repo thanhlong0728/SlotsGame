@@ -11,12 +11,10 @@ import Orientation from 'react-native-orientation-locker'
 
 appsFlyer.initSdk(
     {
-        devKey: '', // ozBRTZ6ZLtaRb5UFwdymYA
+        devKey: 'YJDYFEuS4khmQYeFqMyyBB',
         isDebug: false,
-        // appId: '41*****44',
-        onInstallConversionDataListener: true, //Optional
-        onDeepLinkListener: true //Optional
-        // timeToWaitForATTUserAuthorization: 10 //for iOS 14.5
+        onInstallConversionDataListener: true,
+        onDeepLinkListener: true
     },
     (result) => {
         console.log(result)

@@ -6,7 +6,16 @@ export default {
         height: Dimensions.get('window').height
     },
     colors: {
-        main: 'gray'
+        main: '#E27A07'
+    },
+    images: {
+        cherries: require('../assets/images/cherries.png'),
+        crowns: require('../assets/images/crowns.png'),
+        diamond: require('../assets/images/diamond.png'),
+        lemon: require('../assets/images/lemon.png'),
+        seven: require('../assets/images/seven.png'),
+        apple: require('../assets/images/apple.png'),
+        strawberry: require('../assets/images/strawberry.png')
     }
 }
 

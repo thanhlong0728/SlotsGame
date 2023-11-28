@@ -74,9 +74,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.Jackpot.game777"
+    namespace "com.buildapk8866.app"
     defaultConfig {
-        applicationId "com.Jackpot.game777"
+        applicationId "com.buildapk8866.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

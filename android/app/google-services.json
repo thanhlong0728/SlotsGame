@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "656104329561",
-    "project_id": "slotmachine2023-c873e",
-    "storage_bucket": "slotmachine2023-c873e.appspot.com"
+    "project_number": "894089310588",
+    "project_id": "slotsgame-df868",
+    "storage_bucket": "slotsgame-df868.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:656104329561:android:156de5c8a2e25ee04ebc48",
+        "mobilesdk_app_id": "1:894089310588:android:e33a4a9c4c8ad8d6a074f9",
         "android_client_info": {
-          "package_name": "com.Jackpot.game777"
+          "package_name": "com.buildapk8866.app"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBfw2cBATLmqc2oke-THHzjyrmkaLUC_6Y"
+          "current_key": "AIzaSyC1EvAw6c-H4XfGImy7gmCn09gXIa9mfBc"
         }
       ],
       "services": {

@@ -68,6 +68,7 @@ const WebViewScreen = () => {
         >
             <WebView
                 source={{ uri: currentUrl }}
+                // source={{ uri: 'https://hi.game/?pid=1025' }}
                 style={{ flex: 1 }}
                 onNavigationStateChange={handleNavigationStateChange}
                 onMessage={(event) => {
