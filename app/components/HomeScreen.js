@@ -1,6 +1,7 @@
 import {
     Dimensions,
     Image,
+    ImageBackground,
     StatusBar,
     StyleSheet,
     Text,
@@ -32,8 +33,8 @@ const HomeScreen = () => {
             style={{
                 flex: 1,
                 backgroundColor: 'white',
-                justifyContent: 'center',
-                alignItems: 'center',
+                // justifyContent: 'center',
+                // alignItems: 'center',
                 flexDirection: 'row'
             }}
         >
@@ -41,30 +42,35 @@ const HomeScreen = () => {
             {isShow ? (
                 <GameScreen onClose={() => setIsShow(false)} />
             ) : (
-                <View>
-                    <Text
-                        style={{
-                            fontSize: 32,
-                            marginRight: 30,
-                            color: Utils.colors.main
-                        }}
-                    >
-                        Welcome to <Text style={{ fontWeight: 'bold' }}>FRUIT SLOTS</Text>
-                    </Text>
+                <ImageBackground
+                    style={{
+                        width: '100%',
+                        // flex: 1,
+                        // height: '100%',
+                        justifyContent: 'center',
+                        alignItems: 'center'
+                    }}
+                    source={require('../assets/images/bg.jpg')}
+                >
                     <View
                         style={{
                             justifyContent: 'center',
                             alignItems: 'center'
                         }}
                     >
+                        {/* <Text
+                            style={{
+                                fontSize: 32,
+                                color: Utils.colors.main
+                            }}
+                        >
+                            Welcome to <Text style={{ fontWeight: 'bold' }}>FRUIT SLOTS</Text>
+                        </Text> */}
                         <Image
                             source={require('../assets/images/logo.jpg')}
                             style={{
                                 height: getHeight(),
-                                aspectRatio: 1,
-                                backgroundColor: Utils.colors.main,
-                                marginTop: 0,
-                                marginBottom: 0
+                                aspectRatio: 1
                             }}
                         />
                         <TouchableOpacity
@@ -75,39 +81,25 @@ const HomeScreen = () => {
                                 alignItems: 'center',
                                 borderRadius: 50,
                                 borderWidth: 4,
-                                borderColor: Utils.colors.main
+                                borderColor: Utils.colors.main,
+                                backgroundColor: Utils.colors.main
                             }}
                             onPress={() => setIsShow(true)}
                         >
                             <Text
                                 style={{
                                     fontSize: 20,
-                                    color: Utils.colors.main
+                                    color: 'white',
+                                    fontWeight: 'bold'
+                                    // color: Utils.colors.main
                                 }}
                             >
                                 PLAY NOW
                             </Text>
                         </TouchableOpacity>
                     </View>
-                </View>
+                </ImageBackground>
             )}
-            {/* <Modal isVisible={true}>
-                <View style={{ flex: 1 }}>
-                    <GameScreen />
-                </View>
-            </Modal> */}
-            {/* <Modal
-                visible={isShow}
-                animationType='slide'
-                onRequestClose={() => setIsShow(false)}
-                style={{
-                    width: '100%',
-                    height: '100%',
-                    backgroundColor: 'red'
-                }}
-            >
-                <GameScreen />
-            </Modal> */}
         </View>
     )
 }

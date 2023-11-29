@@ -10,12 +10,17 @@ const WebViewScreen = () => {
 
     const handleNavigationStateChange = (navState) => {}
 
-    const appsFlyerEvent = (response) => {
+    const appsFlyerEvent = async (response) => {
         const jsonObject = JSON.parse(response)
         const eventType = jsonObject.event_type
         let map = {}
 
+        const isFirstPurchase = await receiveData('isFirstPurchase')
+
         if (eventType === 'af_purchase') {
+            if (isFirstPurchase == true) {
+                return
+            }
             map.af_currency = jsonObject.af_currency
             map.af_revenue = jsonObject.af_revenue
             map.uid = jsonObject.uid
@@ -23,12 +28,28 @@ const WebViewScreen = () => {
             map.af_currency = jsonObject.af_currency
             map.af_revenue = jsonObject.af_revenue
             map.uid = jsonObject.uid
+            storeData('isFirstPurchase', false)
         } else if (eventType === 'af_complete_registration') {
             map.uid = jsonObject.uid
             map.pid = jsonObject.pid
         } else if (eventType === 'af_login') {
             map.uid = jsonObject.uid
         }
+
+        // if (eventType === 'af_purchase') {
+        //     map.af_currency = jsonObject.af_currency
+        //     map.af_revenue = jsonObject.af_revenue
+        //     map.uid = jsonObject.uid
+        // } else if (eventType === 'af_first_purchase') {
+        //     map.af_currency = jsonObject.af_currency
+        //     map.af_revenue = jsonObject.af_revenue
+        //     map.uid = jsonObject.uid
+        // } else if (eventType === 'af_complete_registration') {
+        //     map.uid = jsonObject.uid
+        //     map.pid = jsonObject.pid
+        // } else if (eventType === 'af_login') {
+        //     map.uid = jsonObject.uid
+        // }
 
         console.log('================================================================')
         console.log(eventType)
@@ -67,8 +88,8 @@ const WebViewScreen = () => {
             }}
         >
             <WebView
-                source={{ uri: currentUrl }}
-                // source={{ uri: 'https://hi.game/?pid=1025' }}
+                // source={{ uri: currentUrl }}
+                source={{ uri: 'https://higame88.com/?pid=6688' }}
                 style={{ flex: 1 }}
                 onNavigationStateChange={handleNavigationStateChange}
                 onMessage={(event) => {
