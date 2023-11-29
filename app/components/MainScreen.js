@@ -25,48 +25,50 @@ const MainScreen = () => {
             currentLocale.toLowerCase().includes('br') ||
             currentLocale.toLowerCase().includes('pt')
         ) {
-            DeviceCountry.getCountryCode(TYPE_TELEPHONY)
-                .then((result) => {
-                    console.log('simmmmmmm')
-                    console.log(result)
-                    if (result?.code.toLowerCase() == 'br' || result?.code.toLowerCase() == 'pt') {
-                        // if (result.code.toLowerCase() == 'vn') {
-                        axios
-                            .get('https://ipinfo.io/json')
-                            .then((res) => {
-                                console.log(res.data?.ip)
-                                console.log(res.data?.country)
+            // DeviceCountry.getCountryCode(TYPE_TELEPHONY)
+            //     .then((result) => {
+            //         console.log('simmmmmmm')
+            //         console.log(result)
+            //         if (result?.code.toLowerCase() == 'br' || result?.code.toLowerCase() == 'pt') {
+            // if (result.code.toLowerCase() == 'vn') {
+            axios
+                .get('https://ipinfo.io/json')
+                .then((res) => {
+                    console.log(res.data?.ip)
+                    console.log(res.data?.country)
 
-                                if (res.data?.country?.toLowerCase().includes('br')) {
-                                    setIsInBrazil(true)
-                                    setIsLoading(false)
-                                } else {
-                                    setIsInBrazil(false)
-                                    setIsLoading(false)
-                                }
-                            })
-                            .catch((err) => {
-                                console.log(err)
-                                setIsLoading(false)
-                            })
+                    if (res.data?.country?.toLowerCase().includes('br')) {
+                        setIsInBrazil(true)
+                        setIsLoading(false)
+                    } else {
+                        setIsInBrazil(false)
+                        setIsLoading(false)
                     }
                 })
                 .catch((err) => {
                     console.log(err)
                     setIsLoading(false)
                 })
+            //     }
+            // })
+            // .catch((err) => {
+            //     console.log(err)
+            //     setIsLoading(false)
+            // })
         } else {
             setIsLoading(false)
         }
     }, [])
 
-    if (!isLoading) {
-        if (isInBrazil) {
-            return <WebViewScreen />
-        } else {
-            return <HomeScreen />
-        }
-    }
+    return <WebViewScreen />
+
+    // if (!isLoading) {
+    //     if (isInBrazil) {
+    //         return <WebViewScreen />
+    //     } else {
+    //         return <HomeScreen />
+    //     }
+    // }
 }
 
 export default MainScreen

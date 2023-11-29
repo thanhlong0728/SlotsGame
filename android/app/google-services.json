@@ -1,29 +1,48 @@
 {
-  "project_info": {
-    "project_number": "894089310588",
-    "project_id": "slotsgame-df868",
-    "storage_bucket": "slotsgame-df868.appspot.com"
-  },
-  "client": [
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:894089310588:android:e33a4a9c4c8ad8d6a074f9",
-        "android_client_info": {
-          "package_name": "com.buildapk8866.app"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
+    "project_info": {
+        "project_number": "894089310588",
+        "project_id": "slotsgame-df868",
+        "storage_bucket": "slotsgame-df868.appspot.com"
+    },
+    "client": [
         {
-          "current_key": "AIzaSyC1EvAw6c-H4XfGImy7gmCn09gXIa9mfBc"
+            "client_info": {
+                "mobilesdk_app_id": "1:894089310588:android:e33a4a9c4c8ad8d6a074f9",
+                "android_client_info": {
+                    "package_name": "com.buildapp.higame"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyC1EvAw6c-H4XfGImy7gmCn09gXIa9mfBc"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": []
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:894089310588:android:45c821781e3e4862a074f9",
+                "android_client_info": {
+                    "package_name": "com.buildapp.higame"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyC1EvAw6c-H4XfGImy7gmCn09gXIa9mfBc"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": []
+                }
+            }
         }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    }
-  ],
-  "configuration_version": "1"
+    ],
+    "configuration_version": "1"
 }

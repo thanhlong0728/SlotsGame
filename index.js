@@ -11,7 +11,7 @@ import Orientation from 'react-native-orientation-locker'
 
 appsFlyer.initSdk(
     {
-        devKey: 'YJDYFEuS4khmQYeFqMyyBB',
+        devKey: 'n7zewRz3PShME6c5UBGJVk',
         isDebug: false,
         onInstallConversionDataListener: true,
         onDeepLinkListener: true

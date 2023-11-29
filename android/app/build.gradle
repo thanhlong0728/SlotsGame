@@ -74,9 +74,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.buildapk8866.app"
+    namespace "com.buildapp.higame"
     defaultConfig {
-        applicationId "com.buildapk8866.app"
+        applicationId "com.buildapp.higame"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -1,4 +1,4 @@
-package com.buildapk8866.app;
+package com.buildapp.higame;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

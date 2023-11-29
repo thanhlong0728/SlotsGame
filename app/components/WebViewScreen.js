@@ -4,6 +4,7 @@ import { WebView } from 'react-native-webview'
 import appsFlyer from 'react-native-appsflyer'
 import database from '@react-native-firebase/database'
 import Orientation from 'react-native-orientation-locker'
+import { receiveData, storeData } from '../controllers/StorageManager'
 
 const WebViewScreen = () => {
     const [currentUrl, setCurrentUrl] = useState('')
@@ -60,6 +61,7 @@ const WebViewScreen = () => {
             .logEvent(eventType, map)
             .then(() => console.log('Sent event !!!!!'))
             .catch((err) => console.log(err))
+            .finally(() => console.log('Endddd'))
     }
 
     useEffect(() => {
@@ -96,7 +98,6 @@ const WebViewScreen = () => {
                     console.log(event.nativeEvent.data)
                     appsFlyerEvent(event.nativeEvent.data)
                 }}
-                // injectedJavaScript={runFirst}
                 javaScriptEnabled={true}
                 domStorageEnabled={true}
             />
