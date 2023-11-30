@@ -1,4 +1,4 @@
-package com.buildapp.higame;
+package com.buildapp.higame33;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

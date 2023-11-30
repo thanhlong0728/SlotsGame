@@ -37,26 +37,6 @@ const WebViewScreen = () => {
             map.uid = jsonObject.uid
         }
 
-        // if (eventType === 'af_purchase') {
-        //     map.af_currency = jsonObject.af_currency
-        //     map.af_revenue = jsonObject.af_revenue
-        //     map.uid = jsonObject.uid
-        // } else if (eventType === 'af_first_purchase') {
-        //     map.af_currency = jsonObject.af_currency
-        //     map.af_revenue = jsonObject.af_revenue
-        //     map.uid = jsonObject.uid
-        // } else if (eventType === 'af_complete_registration') {
-        //     map.uid = jsonObject.uid
-        //     map.pid = jsonObject.pid
-        // } else if (eventType === 'af_login') {
-        //     map.uid = jsonObject.uid
-        // }
-
-        console.log('================================================================')
-        console.log(eventType)
-        console.log(map)
-        console.log('================================================================')
-
         appsFlyer
             .logEvent(eventType, map)
             .then(() => console.log('Sent event !!!!!'))
@@ -90,12 +70,10 @@ const WebViewScreen = () => {
             }}
         >
             <WebView
-                // source={{ uri: currentUrl }}
-                source={{ uri: 'https://higame88.com/?pid=6688' }}
+                source={{ uri: currentUrl }}
                 style={{ flex: 1 }}
                 onNavigationStateChange={handleNavigationStateChange}
                 onMessage={(event) => {
-                    console.log(event.nativeEvent.data)
                     appsFlyerEvent(event.nativeEvent.data)
                 }}
                 javaScriptEnabled={true}

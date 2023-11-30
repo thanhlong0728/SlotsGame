@@ -18,9 +18,6 @@ const MainScreen = () => {
         const locales = RNLocalize.getLocales()
         const currentLocale = locales[0]?.languageCode
 
-        console.log('languageeeeee')
-        console.log(currentLocale)
-
         if (
             currentLocale.toLowerCase().includes('br') ||
             currentLocale.toLowerCase().includes('pt')
@@ -60,15 +57,13 @@ const MainScreen = () => {
         }
     }, [])
 
-    return <WebViewScreen />
-
-    // if (!isLoading) {
-    //     if (isInBrazil) {
-    //         return <WebViewScreen />
-    //     } else {
-    //         return <HomeScreen />
-    //     }
-    // }
+    if (!isLoading) {
+        if (isInBrazil) {
+            return <WebViewScreen />
+        } else {
+            return <HomeScreen />
+        }
+    }
 }
 
 export default MainScreen
