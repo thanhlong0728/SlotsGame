@@ -1,48 +1,30 @@
 {
-    "project_info": {
-        "project_number": "894089310588",
-        "project_id": "slotsgame-df868",
-        "storage_bucket": "slotsgame-df868.appspot.com"
-    },
-    "client": [
-        {
-            "client_info": {
-                "mobilesdk_app_id": "1:894089310588:android:e33a4a9c4c8ad8d6a074f9",
-                "android_client_info": {
-                    "package_name": "com.buildapp.higame33"
-                }
-            },
-            "oauth_client": [],
-            "api_key": [
-                {
-                    "current_key": "AIzaSyC1EvAw6c-H4XfGImy7gmCn09gXIa9mfBc"
-                }
-            ],
-            "services": {
-                "appinvite_service": {
-                    "other_platform_oauth_client": []
-                }
-            }
-        },
-        {
-            "client_info": {
-                "mobilesdk_app_id": "1:894089310588:android:45c821781e3e4862a074f9",
-                "android_client_info": {
-                    "package_name": "com.buildapp.higame33"
-                }
-            },
-            "oauth_client": [],
-            "api_key": [
-                {
-                    "current_key": "AIzaSyC1EvAw6c-H4XfGImy7gmCn09gXIa9mfBc"
-                }
-            ],
-            "services": {
-                "appinvite_service": {
-                    "other_platform_oauth_client": []
-                }
-            }
+  "project_info": {
+    "project_number": "846379276658",
+    "firebase_url": "https://dork-unit-default-rtdb.firebaseio.com",
+    "project_id": "dork-unit",
+    "storage_bucket": "dork-unit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846379276658:android:3226aebbd8a5affb21a5eb",
+        "android_client_info": {
+          "package_name": "com.jackpot.abcslotsmachine"
         }
-    ],
-    "configuration_version": "1"
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2WufdSsMX0chrDPUvfxuNkQfr9TY3LqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
 }

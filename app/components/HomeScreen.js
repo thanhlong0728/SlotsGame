@@ -66,13 +66,13 @@ const HomeScreen = () => {
                         >
                             Welcome to <Text style={{ fontWeight: 'bold' }}>FRUIT SLOTS</Text>
                         </Text> */}
-                        <Image
+                        {/* <Image
                             source={require('../assets/images/logo.jpg')}
                             style={{
                                 height: getHeight(),
                                 aspectRatio: 1
                             }}
-                        />
+                        /> */}
                         <TouchableOpacity
                             style={{
                                 height: 40,

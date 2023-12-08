@@ -1,4 +1,4 @@
-package com.buildapp.higame33;
+package com.jackpot.abcslotsmachine;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
